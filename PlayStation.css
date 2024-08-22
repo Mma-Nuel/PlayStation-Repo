@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+main {
+  padding-bottom: 100px;
+}
+.sony {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: end;
+  height: 35px;
+  align-items: center;
+  font-size: 25px;
+  letter-spacing: 3px;
+  padding-right: 5px;
+}
+.nav-bar {
+  display: flex;
+  height: 67px;
+}
+.left-side {
+  display: flex;
+  flex: 1;
+}
+.logo {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.ps-logo {
+  width: 40px;
+  align-items: center;
+  align-content: center;
+}
+ul {
+  display: flex;
+
+  background-color: white;
+  align-items: center;
+  flex: 2;
+}
+li {
+  list-style-type: none;
+  font-size: 15px;
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+.right-side {
+  flex: 1;
+  display: flex;
+  justify-content: end;
+}
+.search {
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin-bottom: auto;
+  margin-top: auto;
+  margin-left: 30px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+.drop-icon {
+  width: 10px;
+}
+
+.sign-in {
+  width: 80px;
+  padding: 5px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  background-color: blue;
+  text-decoration: none;
+  border: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  cursor: pointer;
+  text-align: center;
+}
+
+.slide-show {
+  width: 100%;
+  height: auto;
+}
+.image-slide-controler {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+.image-container {
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 110px;
+}
+
+.image_slide {
+  width: 100px;
+  border: 20px;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+.PS5-accessores-container {
+  display: flex;
+}
+.PS5-accessores-intro {
+  flex: 1;
+  padding: 80px;
+}
+.console-intro {
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  width: 350px;
+  font-weight: 100;
+}
+.console-name {
+  color: rgb(0, 100, 183);
+  padding-top: 50px;
+  font-weight: 100;
+  font-size: 22px;
+}
+.Experiance {
+  padding-top: 10px;
+  font-family: "Times New Roman", Times, serif;
+  color: gray;
+  font-size: 12px;
+}
+.more-btn-con {
+  display: inline-block;
+}
+.more-btn {
+  padding: 7px;
+  border-radius: 30px;
+  font-size: 12px;
+  color: white;
+  background-color: rgb(0, 104, 189);
+  border: none;
+  display: inline-block;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.more-btn:hover {
+  box-shadow: 0 0 0 3px white, 0 0 0 5px rgb(0, 104, 189);
+}
+
+.buy-now-btn {
+  padding: 7px;
+  color: white;
+  border-radius: 30px;
+  font-size: 12px;
+  background-color: orangered;
+  border: none;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.buy-now-btn:hover {
+  box-shadow: 0 0 0 3px white, 0 0 0 5px #c03a00;
+}
+.ps5-slim {
+  width: 800px;
+}
+.container {
+  background-color: black;
+}
+.great-game {
+  font-size: 40px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: lighter;
+  color: white;
+}
+.new-games {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 20px;
+  font-size: 20px;
+}
+.game-grid {
+  color: white;
+}
+.image {
+  width: 220px;
+  height: 215px;
+  border-radius: 10px;
+}
